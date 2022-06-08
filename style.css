@@ -1,0 +1,48 @@
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #FF9A4B;
+}
+
+main{
+    width: 100%;
+    margin: 50px auto;
+}
+
+.step-box{
+    margin-bottom: 30px;
+    padding: 10px;
+    position: relative;
+    background-color: #eee;
+}
+
+.step-box:last-child{
+    margin-right: 0;
+}
+
+.profile-img{
+    height: 300px;
+    width: 300px;
+    background-image: url(img/profile.jpeg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.title{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #FF9A4B;
+    color: #fff;
+}
+
+.text{
+    margin: 15px 0 5px 0;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #aaaaaa;
+}
